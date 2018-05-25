@@ -35,6 +35,10 @@ height:0px !important;
 
 }
 
+.gm-sticky-popin-bars{
+bottom:0px !important;
+}
+
 
 ` );
 
