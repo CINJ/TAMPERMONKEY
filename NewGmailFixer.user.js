@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         2018GmailFixer
 // @namespace    http://thinking.studio/
-// @version      0.1
+// @version      0.2
 // @description  fix the fugly! My attempt to fix compact view on the new GMail which is nothing short of offensive.
 // @author       Joe Cincotta
 // @match        https://mail.google.com/mail/*
@@ -22,6 +22,10 @@ border-radius:0px !important;
 display:none;
 }
 
+.gb_Va{
+display:none;
+}
+
 .z0>.L3::before{
 background: none !important;
 width:25px !important;
@@ -39,7 +43,4 @@ height:0px !important;
 bottom:0px !important;
 }
 
-
 ` );
-
-
